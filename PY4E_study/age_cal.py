@@ -55,18 +55,6 @@ def cal(birth_year, birth_month, birth_day):
 	elif birth.month < rn.month or (birth.month == rn.month and birth.day < rn.day):
 		print(korean_age, current_age)
 
-	# #5. 달이 같을 경우
-	# elif birth.month == rn.month:
-	#
-	# 	# 현재날짜가 더 크다면 생일이 지났으므로 현재나이 출력
-	# 	if birth.day < rn.day:
-	# 		print(korean_age, current_age)
-	#
-	# 	# 출생일이 더 크다면 생일이 안지났으므로 현재나이-1 출력
-	# 	else:
-	# 		current_age = f"\n현재 나이는 {age - 1}세 입니다."
-	# 		print(korean_age, current_age)
-
 	#6. 나머지 경우 생일이 안지났으므로 현재나이-1 출력
 	else:
 		current_age = f"\n현재 나이는 {age-1}세 입니다."
